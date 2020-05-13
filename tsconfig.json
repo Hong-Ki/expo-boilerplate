@@ -7,6 +7,13 @@
     "noEmit": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "strict": true
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"],
+      "~components/*": ["./src/components/*"],
+      "~constants/*": ["./src/constants/*"],
+      "~hooks/*": ["./src/hooks/*"]
+    }
   }
 }
