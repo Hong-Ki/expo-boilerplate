@@ -8,7 +8,7 @@
 
 ### package.json에 typesync 커맨드 추가
 
-```json
+```
 "scripts": {
   ...,
   "typesync": "typesync && yarn"
